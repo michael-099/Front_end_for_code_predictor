@@ -1,9 +1,10 @@
 import React from "react";
 import App from "./App";
-import ReactDOM from 'react-dom';
+import Ide_d from "./intcode"
+import ReactDOM from 'react-dom/client';
 const root=ReactDOM.createRoot(document.getElementById("root"))
     root.render(
         <React.StrictMode>
-            <App/>
+            <Ide_d/>
         </React.StrictMode>
     )
