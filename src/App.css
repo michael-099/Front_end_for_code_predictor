@@ -1,3 +1,7 @@
+*{
+    padding:0;
+    margin: 0;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -5,7 +9,26 @@
   justify-content: center;
   height: 100vh;
   
+  
  
+}
+div::-webkit-scrollbar{
+    display: none;
+  }
+.top-log{
+    padding: 10px;
+    font-weight: 900;
+    font-size: larger;
+}
+.top{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height:5%;
+    padding:10px;
+    align-items: center;
+    
+
 }
 .chat{
   display: flex;
@@ -16,6 +39,8 @@
   overflow-y: scroll;
   padding: 10px;
   width: 80%;
+  
+
 }
 .user-message{
     background-color: aliceblue;
@@ -28,8 +53,8 @@
     word-wrap: break-word;
 }
 .bot-message{
-    background-color: rgb(21, 212, 212);
-    color: aliceblue;
+    background-color: black;
+    color: rgb(188, 189, 190);
     align-self: flex-start;
     margin:5px 0;
     padding:10px;

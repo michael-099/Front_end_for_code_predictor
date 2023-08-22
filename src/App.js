@@ -9,9 +9,10 @@ function App() {
   };
   return (
     <div className="App">
+        <div className="top"> <p className="top-log"> intllicode</p></div>
       <div className="chat">
         <div className="user-message"> this is a message</div>
-        <div className="bot-message"> this is a bot message</div>
+        <div className="bot-message"> this is a bot </div>
        
       </div>
 
