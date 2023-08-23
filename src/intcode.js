@@ -36,7 +36,8 @@ class Ide extends Component {
   }
 
   render() {
-    return (<div><Head/>
+    return (<div className='div1'>
+      <Head/>
       <div className='ide'>
         
         <AceEditor
@@ -48,7 +49,10 @@ class Ide extends Component {
           width='100%'
           showPrintMargin={true}
         />
-      </div></div>
+      </div>
+      <button className='complete'>complete</button>
+      
+      </div>
       
     );
   }
