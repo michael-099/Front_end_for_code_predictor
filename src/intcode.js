@@ -47,6 +47,7 @@ class Ide extends Component {
           name="UNIQUE_ID_OF_DIV"
           editorProps={{$blockScrolling: true}}
           width='100%'
+          height='400px'
           showPrintMargin={true}
         />
       </div>
