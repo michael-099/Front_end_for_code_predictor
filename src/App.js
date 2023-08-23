@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-
+import Head from "./head";
 function App() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
@@ -9,10 +9,7 @@ function App() {
   };
   return (
     <div className="App">
-      <div className="top">
-        {" "}
-        <p className="top-log"> intllicode</p>
-      </div>
+     <Head/>
       <div className="chat">
         <div className="user-message">
           {" "}
