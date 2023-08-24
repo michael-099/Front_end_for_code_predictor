@@ -49,16 +49,12 @@ input:checked+.slider:before{
     display: inline-block;
     width: 200px;
     height: 50px;
-    
-
-
   }
   
   .switch input {
     opacity: 0;
     width: 0;
     height: 0;
-
   }
   
   .div2{
@@ -69,7 +65,9 @@ input:checked+.slider:before{
     position: absolute;
     border-radius: 10px;
     cursor: pointer;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center ;
     top: 0;
     left: 0;
     right: 0;
@@ -110,18 +108,18 @@ input:checked+.slider:before{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     font-weight: 700;
   }
   .chat{
     
     font-size: small;
-    color: rgb(141, 138, 135);
-    width: 50%;
-
+    color: rgb(197, 193, 188);
+    width: 50px;
   }
   .code{
-   
+  
     font-size: small;
-    width: 50%;
-    color: rgb(141, 138, 135);
+    color: rgb(197, 193, 188);
+    width: 100px;
   }
