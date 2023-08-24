@@ -10,8 +10,7 @@ function App() {
   };
   return (
     <div className="App">
-     <Head/>
-     <Switch/>
+     
       <div className="chat">
         <div className="user-message">
           {" "}

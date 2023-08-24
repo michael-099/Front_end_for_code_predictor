@@ -61,7 +61,7 @@ input:checked+.slider:before{
 
   }
   
-  div{
+  .div2{
     margin:10px;
     display:flex;
   }
@@ -106,18 +106,22 @@ input:checked+.slider:before{
     content: "code";
     font-size: larger;
   }
-  .chat{
-    display:inline-block;
-    font-size: small;
+  .back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 700;
+  }
+  .chat{
+    
+    font-size: small;
     color: rgb(141, 138, 135);
+    width: 50%;
 
   }
   .code{
-    display:flex;
+   
     font-size: small;
-    font-weight: 700;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
     color: rgb(141, 138, 135);
   }

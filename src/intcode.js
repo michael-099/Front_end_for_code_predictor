@@ -29,35 +29,59 @@ import 'brace/mode/mysql';
 import Head from './head';
 import './intcode.css';
 import Switch from './switch';
+// class Ide extends Component {
+
+//   onChange(newValue) {
+//     console.log('change', newValue);
+//   }
+
+//   render() {
+//     return (<div className='div1'>
+//       {/* <Head/> */}
+//       {/* <Switch/> */}
+//       <div className='ide'>
+//         <AceEditor
+//           mode="javascript"
+//           theme="monokai"
+//           onChange={this.onChange}
+//           name="UNIQUE_ID_OF_DIV"
+//           editorProps={{$blockScrolling: true}}
+//           width='100%'
+//           height='400px'
+//           showPrintMargin={true}
+//         />
+//       </div>
+//       {/* <button className='complete'>complete</button> */}
+      
+//       </div>
+      
+//     );
+//   }
+// }
 class Ide extends Component {
 
   onChange(newValue) {
     console.log('change', newValue);
   }
 
-  render() {
-    return (<div className='div1'>
-      <Head/>
-      <Switch/>
-      <div className='ide'>
-        
-        <AceEditor
-          mode="javascript"
-          theme="monokai"
-          onChange={this.onChange}
-          name="UNIQUE_ID_OF_DIV"
-          editorProps={{$blockScrolling: true}}
-          width='100%'
-          height='400px'
-          showPrintMargin={true}
-        />
-      </div>
-      <button className='complete'>complete</button>
-      
-      </div>
-      
-    );
-  }
+render() {
+  return (<div className='ide'>
+    
+      <AceEditor
+        mode="javascript"
+        theme="monokai"
+        onChange={this.onChange}
+        name="UNIQUE_ID_OF_DIV"
+        editorProps={{$blockScrolling: true}}
+        width='100%'
+        height='400px'
+        showPrintMargin={true}
+      />
+  
+    
+    </div>
+    
+  );
 }
-
+}
 export default Ide;

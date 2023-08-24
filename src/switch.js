@@ -19,11 +19,11 @@ function Switch() {
   };
 
   return (
-    <div>
+    <div className="div2">
       <label className="switch">
         <input type="checkbox" checked={isOn} onChange={handleToggle} />
         <span className="slider">
-          <div>
+          <div className="back">
             <span className="chat">chat mode</span>
             <span className="code">code mode</span>
           </div>
