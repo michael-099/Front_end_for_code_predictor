@@ -28,7 +28,7 @@ import 'brace/theme/sqlserver';
 import 'brace/mode/mysql';
 import Head from './head';
 import './intcode.css';
-
+import Switch from './switch';
 class Ide extends Component {
 
   onChange(newValue) {
@@ -38,6 +38,7 @@ class Ide extends Component {
   render() {
     return (<div className='div1'>
       <Head/>
+      <Switch/>
       <div className='ide'>
         
         <AceEditor

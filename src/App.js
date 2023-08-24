@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Head from "./head";
+import Switch from './switch';
 function App() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
      <Head/>
+     <Switch/>
       <div className="chat">
         <div className="user-message">
           {" "}
