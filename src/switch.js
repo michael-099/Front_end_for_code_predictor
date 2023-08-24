@@ -1,15 +1,35 @@
-import{Switch} from "antd"
-import "./switch.css"
-function Switch1(){
-    return (
-        <div className="switch">
-            <Switch
-            className="custom-switch"
-            // size="large"
-            checkedChildren="chat"
-            unCheckedChildren="code"
-            />
-        </div>
-    )
+import { useState } from "react";
+import "./switch.css";
+//  function Switch(){
+
+//     return (
+//       <lable className="switch">
+//         <input type="checkbox" />
+//         <span className="slider">
+//         </span>
+//       </lable>
+//     )
+// }
+// export default Switch;
+function Switch() {
+  const [isOn, setIsOn] = useState(false);
+
+  const handleToggle = () => {
+    setIsOn(!isOn);
+  };
+
+  return (
+    <div>
+      <label className="switch">
+        <input type="checkbox" checked={isOn} onChange={handleToggle} />
+        <span className="slider">
+          <div>
+            <span className="chat">chat mode</span>
+            <span className="code">code mode</span>
+          </div>
+        </span>
+      </label>
+    </div>
+  );
 }
-export default Switch1;
+export default Switch;

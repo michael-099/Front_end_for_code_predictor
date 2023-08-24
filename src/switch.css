@@ -1,0 +1,124 @@
+/* .switch{
+    position: relative;
+    display:inline-block;
+    width:200px;
+    height: 50px;
+    background-color:rgb(236, 232, 232);
+    border-radius: 10px;
+   
+    margin:30px;
+    overflow: hidden;
+    padding :5px;
+}
+.switch input{
+    width:0px;
+    height:0px;
+}
+.slider{
+    position: absolute;
+    width:100px;
+    cursor: pointer;
+    background-color: rgb(185, 185, 185);
+    overflow: hidden;
+    border-radius: 10px;
+
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+
+
+}
+.slider:before{
+    position: absolute;
+    content: "";
+    width:100px;
+    left:4px;
+    bottom: 4px;
+    
+    
+
+}
+input:checked+.slider:before{
+    transform:translateX(100px);
+
+}
+ */
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    
+
+
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+  }
+  
+  div{
+    margin:10px;
+    display:flex;
+  }
+  .slider {
+    position: absolute;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(236, 232, 232);
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position:absolute;
+    content:"chat";
+    height:40px;
+    width:100px;
+    left:4px;
+    bottom:4px;
+    background-color: rgb(182, 175, 175);
+    transition:0.4s;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color:rgb(99, 101, 102)
+   
+    
+  }
+  
+  /* input:checked + .slider {
+    background-color: #2196f3;
+  } */
+  
+  input:checked+.slider:before {
+    transform:translateX(90px);
+    content: "code";
+    font-size: larger;
+  }
+  .chat{
+    display:inline-block;
+    font-size: small;
+    font-weight: 700;
+    color: rgb(141, 138, 135);
+
+  }
+  .code{
+    display:flex;
+    font-size: small;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    color: rgb(141, 138, 135);
+  }
