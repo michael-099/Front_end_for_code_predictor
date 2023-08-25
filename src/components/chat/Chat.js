@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./Chat.css";
-import Head from "./head";
-import Switch from './switch';
-function App() {
+function Chat() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
   const handleSend = () => {
@@ -61,4 +59,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default Chat;

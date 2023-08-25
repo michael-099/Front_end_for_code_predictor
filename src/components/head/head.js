@@ -1,4 +1,4 @@
-import "./Head.css";
+import "./head.css";
 function Head() {
   return (
     <div className="top">

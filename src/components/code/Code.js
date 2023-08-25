@@ -26,10 +26,8 @@ import AceEditor from 'react-ace';
 
 import 'brace/theme/sqlserver';
 import 'brace/mode/mysql';
-import Head from '../head/head';
-import '.Code.css';
-import Switch from '../Switch/switch';
-class Ide extends Component {
+import './Code.css';
+class Code extends Component {
 
   onChange(newValue) {
     console.log('change', newValue);
@@ -58,30 +56,5 @@ class Ide extends Component {
     );
   }
 }
-// class Ide extends Component {
 
-//   onChange(newValue) {
-//     console.log('change', newValue);
-//   }
-
-// render() {
-//   return (<div className='ide'>
-    
-//       <AceEditor
-//         mode="javascript"
-//         theme="monokai"
-//         onChange={this.onChange}
-//         name="UNIQUE_ID_OF_DIV"
-//         editorProps={{$blockScrolling: true}}
-//         width='100%'
-//         height='400px'
-//         showPrintMargin={true}
-//       />
-      
-    
-//     </div>
-    
-//   );
-// }
-// }
-export default Ide;
+export default Code;
