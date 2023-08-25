@@ -1,49 +1,4 @@
-/* .switch{
-    position: relative;
-    display:inline-block;
-    width:200px;
-    height: 50px;
-    background-color:rgb(236, 232, 232);
-    border-radius: 10px;
-   
-    margin:30px;
-    overflow: hidden;
-    padding :5px;
-}
-.switch input{
-    width:0px;
-    height:0px;
-}
-.slider{
-    position: absolute;
-    width:100px;
-    cursor: pointer;
-    background-color: rgb(185, 185, 185);
-    overflow: hidden;
-    border-radius: 10px;
 
-    top:0;
-    left:0;
-    right: 0;
-    bottom: 0;
-
-
-}
-.slider:before{
-    position: absolute;
-    content: "";
-    width:100px;
-    left:4px;
-    bottom: 4px;
-    
-    
-
-}
-input:checked+.slider:before{
-    transform:translateX(100px);
-
-}
- */
  .switch {
     position: relative;
     display: inline-block;
@@ -55,12 +10,14 @@ input:checked+.slider:before{
     opacity: 0;
   
   }
-  
   .div2{
-    position: absolute;
+    position: fixed;
     left: 40%;
-    margin: 20px 0;
-    display:flex;
+    top: 10%;
+    @media (max-width:1080px) {
+    left: 34%;
+    top: 10%;    
+  }
   }
   .slider {
     position: absolute;
@@ -100,10 +57,6 @@ input:checked+.slider:before{
     display: none;
   }
   
-  /* input:checked + .slider {
-    background-color: #2196f3;
-  } */
-  
   input:checked+.slider:before {
     transform:translateX(90px);
     content: "code";
@@ -120,11 +73,12 @@ input:checked+.slider:before{
     
     font-size: small;
     color: rgb(197, 193, 188);
-    width: 50px;
+    width: 40%;
   }
   .code{
-  
     font-size: small;
     color: rgb(197, 193, 188);
-    width: 100px;
+    width: 40%;
+    margin:0 0 0 20px;
+   
   }

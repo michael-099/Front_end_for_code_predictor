@@ -2,8 +2,9 @@ div::-webkit-scrollbar{
     display: none;
   }
 .top-log{
+    
     padding: 10px;
-    margin:0 0 0 30px ;
+    margin:auto ;
     font-weight: 900;
     font-size: larger;
     
@@ -13,7 +14,11 @@ div::-webkit-scrollbar{
     background-color: black;
     color: aliceblue;
     width: 100%;
-    height:30px;
+    height:40px;
     padding:10px;
     align-items: center;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 };

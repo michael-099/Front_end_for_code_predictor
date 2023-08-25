@@ -8,8 +8,7 @@ function Chat() {
   };
   return (
     <div className="App">
-     
-      <div className="chat">
+      <div className="chat_box">
         <div className="user-message">
           {" "}
           Lorem ipsum dolor sit amet, ei quo hendrerit definiebas, id ornatus
