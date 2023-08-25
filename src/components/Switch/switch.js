@@ -11,7 +11,7 @@ import "./switch.css";
 //     )
 // }
 // export default Switch;
-function Switch() {
+function Switchs() {
   const [isOn, setIsOn] = useState(false);
 
   const handleToggle = () => {
@@ -32,4 +32,4 @@ function Switch() {
     </div>
   );
 }
-export default Switch;
+export default Switchs;

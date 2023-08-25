@@ -26,9 +26,9 @@ import AceEditor from 'react-ace';
 
 import 'brace/theme/sqlserver';
 import 'brace/mode/mysql';
-import Head from './head';
+import Head from '../head/head';
 import './intcode.css';
-import Switch from './switch';
+import Switch from '../Switch/switch';
 class Ide extends Component {
 
   onChange(newValue) {
