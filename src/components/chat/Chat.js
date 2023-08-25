@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./Chat.css";
 import Head from "./head";
 import Switch from './switch';
 function App() {

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Head.css";
 function Head() {
   return (
     <div className="top">

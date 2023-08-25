@@ -27,7 +27,7 @@ import AceEditor from 'react-ace';
 import 'brace/theme/sqlserver';
 import 'brace/mode/mysql';
 import Head from '../head/head';
-import './intcode.css';
+import '.Code.css';
 import Switch from '../Switch/switch';
 class Ide extends Component {
 
