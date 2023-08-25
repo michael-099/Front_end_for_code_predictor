@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./switch.css";
+import { Link } from "react-router-dom";
 //  function Switch(){
 
 //     return (
@@ -23,10 +24,12 @@ function Switchs() {
       <label className="switch">
         <input type="checkbox" checked={isOn} onChange={handleToggle} />
         <span className="slider">
-          <div className="back">
-            <span className="chat">chat mode</span>
-            <span className="code">code mode</span>
-          </div>
+          <Link to="/code">
+            <div className="back">
+              <span className="chat">chat mode</span>
+              <span className="code">code mode</span>
+            </div>
+          </Link>
         </span>
       </label>
     </div>

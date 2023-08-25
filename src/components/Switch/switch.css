@@ -58,7 +58,9 @@ input:checked+.slider:before{
   }
   
   .div2{
-    margin:10px;
+    position: absolute;
+    left: 40%;
+    margin: 20px 0;
     display:flex;
   }
   .slider {
