@@ -19,7 +19,7 @@ body {
     background-color:wheat;
     width:90%;
     height: 100%;
-    margin: auto;
+    margin: 100px auto;
    
 
     @media (min-width:1080px) {
