@@ -3,16 +3,16 @@ div::-webkit-scrollbar{
   }
 .top-log{
     
-    padding: 10px;
-    margin:auto ;
+    /* padding: 10px; */
     font-weight: 900;
     font-size: larger;
+    width: 200px;
     
 }
 .top{
     
     background-color: black;
-    color: aliceblue;
+    color: rgb(16, 63, 104);
     width: 100%;
     height:40px;
     padding:10px;
@@ -22,3 +22,7 @@ div::-webkit-scrollbar{
     right: 0;
     top: 0;
 };
+
+.logo_name{
+    background-color: aqua;
+}
