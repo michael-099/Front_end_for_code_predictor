@@ -37,8 +37,9 @@ div::-webkit-scrollbar{
 
 }
 .user-message{
-    background-color: aliceblue;
-    color:black;
+  background-color: #068FFF;
+  color: white;
+    
     align-self: flex-end;
     margin:15px ;
     padding:10px;
@@ -48,8 +49,8 @@ div::-webkit-scrollbar{
   
 }
 .bot-message{
-    background-color: black;
-    color: rgb(188, 189, 190);
+  background-color: #CEE6F3;
+  color:black;
     align-self: flex-start;
     margin:15px ;
     padding:10px;
@@ -72,7 +73,7 @@ input[type="text"]{
   
     padding:10px;
     border-radius:50px;
-    border:2px solid rgb(88, 88, 88);
+    border:2px solid #068FFF;
     outline: none;
     width: 80%;
     @media(min-width:680px){

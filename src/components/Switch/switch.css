@@ -12,10 +12,10 @@
   }
   .div2{
     position: fixed;
-    left: 40%;
+    left: 45%;
     top: 10%;
     @media (max-width:1080px) {
-    left: 34%;
+    left: 39%;
     top: 10%;    
   }
   }
@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(236, 232, 232);
+    background-color: #CEE6F3;
     transition: 0.4s;
   }
   .slider:before {
@@ -40,7 +40,8 @@
     width:100px;
     left:4px;
     bottom:4px;
-    background-color: rgb(182, 175, 175);
+    /* background-color: rgb(182, 175, 175); */
+    background-color: #068FFF;
     transition:0.4s;
     border-radius: 10px;
     overflow: hidden;
@@ -48,7 +49,8 @@
     align-items: center;
     justify-content: center;
     font-size: larger;
-    color:rgb(99, 101, 102)
+    color:white;
+    /* color:rgb(99, 101, 102) */
    
     
   }
@@ -72,12 +74,14 @@
   .chat{
     
     font-size: small;
-    color: rgb(197, 193, 188);
+    /* color: rgb(197, 193, 188); */
+    color:white;
     width: 40%;
   }
   .code{
     font-size: small;
-    color: rgb(197, 193, 188);
+    /* color: rgb(197, 193, 188); */
+    color:white;
     width: 40%;
     margin:0 0 0 20px;
    

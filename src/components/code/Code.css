@@ -12,14 +12,12 @@ body {
 }
 .ide{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     border-radius: 3%;
     overflow: hidden;
     background-color:wheat;
     width:90%;
     height: 100%;
-    margin: 120px auto 0 auto;
+    margin: 140px auto 0 auto;
    
 
     @media (min-width:1080px) {
@@ -30,10 +28,19 @@ body {
 
 }
 .complete{
-    background-color:black;
+    background-color:#068FFF;
+    /* background-color:black; */
     width:150px;
     height:50px;
     border-radius: 10px;
+    position: fixed;
+    right: 10%;
+    @media (min-width:1080px) {
+        position: fixed;
+        right: 20%;
+    
+    }
+    margin: 20px;
     /* margin:30px auto; */
     /* display: inline-block; */
 }
