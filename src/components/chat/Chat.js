@@ -10,7 +10,7 @@ function Chat() {
   };
   return (
     <div className="App">
-      <div className="chat_box">
+     
         <div className="chat_box">
           {chatData.map((item, index) => {
             const className = item.id === "bot" ? "bot-message" : "user-message";
@@ -20,10 +20,7 @@ function Chat() {
               </div>
             );
           })}
-        </div>
-
       </div>
-
       <div className="input-container">
         <input
           type="text"

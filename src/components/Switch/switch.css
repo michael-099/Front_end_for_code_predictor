@@ -14,9 +14,10 @@
     position: fixed;
     left: 45%;
     top: 10%;
+    margin: 15px 0 0 0; 
     @media (max-width:1080px) {
     left: 39%;
-    top: 10%;    
+    top: 10%;  
   }
   }
   .slider {
