@@ -1,5 +1,5 @@
-import { useState, } from "react";
-import { useNavigate  } from "react-router-dom";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./switch.css";
 
 function Switchs() {
@@ -18,10 +18,10 @@ function Switchs() {
       <label className="switch">
         <input type="checkbox" checked={isOn} onChange={handleToggle} />
         <span className="slider">
-            <div className="back">
-              <span className="chat">chat mode</span>
-              <span className="code">code mode</span>
-            </div>
+          <div className="back">
+            <span className="chat">chat mode</span>
+            <span className="code">code mode</span>
+          </div>
         </span>
       </label>
     </div>
