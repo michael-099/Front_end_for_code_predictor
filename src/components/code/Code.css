@@ -19,17 +19,12 @@ body {
     height: 100%;
     margin: 140px auto 0 auto;
    
-
     @media (min-width:1080px) {
-        width:60%;
-        /* padding:0 */
-        
+        width:60%;   
     }
-
 }
 .complete{
     background-color:#068FFF;
-    /* background-color:black; */
     width:150px;
     height:50px;
     border-radius: 10px;
@@ -38,9 +33,7 @@ body {
     @media (min-width:1080px) {
         position: fixed;
         right: 20%;
-    
     }
     margin: 20px;
-    /* margin:30px auto; */
-    /* display: inline-block; */
+ 
 }

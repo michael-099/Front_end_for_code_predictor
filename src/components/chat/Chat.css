@@ -10,11 +10,6 @@
   justify-content: center;
   height: 100vh;
   width: 100%;
- 
-
-
-
-
 }
 
 .img1 {
@@ -40,21 +35,17 @@ div::-webkit-scrollbar {
     width: 60%;
     margin: 70px 0 0 0;
   }
-
-
 }
 
 .user-message {
   background-color: #068FFF;
   color: white;
-
   align-self: flex-end;
   margin: 15px;
   padding: 10px;
   border-radius: 10px;
   max-width: 65%;
   word-wrap: break-word;
-
 }
 
 .bot-message {
@@ -66,7 +57,6 @@ div::-webkit-scrollbar {
   border-radius: 10px;
   max-width: 65%;
   word-wrap: break-word;
-
 }
 
 .input-container {
@@ -81,7 +71,6 @@ div::-webkit-scrollbar {
 }
 
 input[type="text"] {
-
   padding: 10px;
   border-radius: 50px;
   border: 2px solid #068FFF;

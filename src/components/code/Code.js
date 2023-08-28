@@ -1,42 +1,17 @@
-// import React from "react";
-// import { ReactDOM } from "react";
-// import ace from 'ace-builds';
-// import "./intcode.css";
-// function Ide_d(){
-//    return( <div id="root1">
-//     kkkk
-//       </div>)
 
-// }
-// // function Ide(){
-// //    let editor=Ide_d;
-   
-// //    return <div>
-// //       { ace.edit(editor,{
-// //         theme:"ace/theme/cobalt",
-// //         mode:"ace/mode/javascript",
-// //        })}
-        
-// //     </div>
-// // }
-// export default Ide_d;
 import React, { Component } from 'react';
 import brace from 'brace';
 import AceEditor from 'react-ace';
-
 import 'brace/theme/sqlserver';
 import 'brace/mode/mysql';
 import './Code.css';
 class Code extends Component {
-
   onChange(newValue) {
     console.log('change', newValue);
   }
 
   render() {
     return (<div className='div1'>
-      {/* <Head/> */}
-      {/* <Switch/> */}
       <div className='ide'>
         <AceEditor
           mode="javascript"
@@ -50,11 +25,9 @@ class Code extends Component {
         />
       </div>
       <button className='complete'>complete</button>
-      
       </div>
       
     );
   }
 }
-
 export default Code;

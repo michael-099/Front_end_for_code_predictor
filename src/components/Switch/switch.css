@@ -42,7 +42,6 @@
     width:100px;
     left:4px;
     bottom:4px;
-    /* background-color: rgb(182, 175, 175); */
     background-color: #068FFF;
     transition:0.4s;
     border-radius: 10px;
@@ -51,10 +50,7 @@
     align-items: center;
     justify-content: center;
     font-size: larger;
-    color:white;
-    /* color:rgb(99, 101, 102) */
-   
-    
+    color:white; 
   }
 
   div::-webkit-scrollbar{
@@ -76,13 +72,11 @@
   .chat{
     
     font-size: small;
-    /* color: rgb(197, 193, 188); */
     color: #7e9bb2;
     width: 40%;
   }
   .code{
     font-size: small;
-    /* color: rgb(197, 193, 188); */
     color: #7e9bb2;
     width: 40%;
     margin:0 0 0 20px;

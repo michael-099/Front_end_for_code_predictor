@@ -5,7 +5,6 @@ import "./switch.css";
 function Switchs() {
   const navigate = useNavigate();
   const [isOn, setIsOn] = useState(false);
-
   const handleToggle = () => {
     setIsOn(!isOn);
     if (window.location.pathname === "/") {
@@ -13,11 +12,7 @@ function Switchs() {
     } else {
       navigate("/");
     }
-   
   };
-
-
-
   return (
     <div className="div2">
       <label className="switch">
